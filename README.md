@@ -1,4 +1,4 @@
-# 📞 Android Demo with `voice-sdk-android`
+# 📞 Android Demo for voice-sdk-android library
 
 This is a simple demo Android app for initiating audio calls using a `voice-sdk-android` library.  
 It shows how to start and manage a VoIP call, and handle basic call states such as mute, hold, and disconnect.

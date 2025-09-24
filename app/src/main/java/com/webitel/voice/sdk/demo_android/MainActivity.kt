@@ -140,7 +140,7 @@ class MainActivity : AppCompatActivity(), SettingDialogFragment.OnConnectionData
     private fun startTimer(answeredAt: Long) {
         val duration = System.currentTimeMillis() - answeredAt
         timer.base = SystemClock.elapsedRealtime() - duration
-        timer.setOnChronometerTickListener(null) // No formatting magic in demo
+        timer.onChronometerTickListener = null // No formatting magic in demo
         timer.start()
     }
 

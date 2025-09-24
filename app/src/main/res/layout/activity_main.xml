@@ -86,29 +86,25 @@
         <!-- Mute button -->
         <Button
             android:id="@+id/muteBtn"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            style="@style/Widget.MaterialComponents.Button"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_weight="1"
             android:text="Mute"
             android:textAllCaps="false"
             android:textColor="#333333"
-            android:strokeColor="#666666"
-            android:strokeWidth="2"
-            android:backgroundTint="#FFFFFF" />
+            android:backgroundTint="#FFFFFF"/>
 
         <!-- Hold button -->
         <Button
             android:id="@+id/holdBtn"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            style="@style/Widget.MaterialComponents.Button"
             android:layout_width="0dp"
             android:layout_height="48dp"
             android:layout_weight="1"
             android:text="Hold"
             android:textAllCaps="false"
             android:textColor="#333333"
-            android:strokeColor="#666666"
-            android:strokeWidth="2"
             android:backgroundTint="#FFFFFF"
             android:layout_marginHorizontal="10dp" />
 
@@ -122,8 +118,7 @@
             android:text="DTMF"
             android:textAllCaps="false"
             android:textColor="#333333"
-            android:backgroundTint="#FFFFFF"
-            android:layout_marginHorizontal="4dp" />
+            android:backgroundTint="#FFFFFF" />
 
     </LinearLayout>
 

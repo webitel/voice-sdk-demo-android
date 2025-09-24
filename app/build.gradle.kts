@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace = "com.webitel.voice.sdk.demo_android"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.webitel.voice.sdk.demo_android"
         minSdk = 24
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -45,5 +45,5 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
 
-    implementation("com.github.webitel:voice-sdk-android:0.1.2")
+    implementation("com.github.webitel:voice-sdk-android:0.1.3")
 }
